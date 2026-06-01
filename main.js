@@ -125,7 +125,7 @@ const copyToken = () => {
 
 (async function() {
   document.querySelector('.dashboard-url').textContent = location.origin
-  document.querySelector('input#redirectUri').value = location.origin
+  document.querySelector('input#redirectUri').value = location.origin + '/Test/'
   const clientId = localStorage.getItem('clientId')
   const clientSecret = localStorage.getItem('clientSecret')
   const redirectUrl = localStorage.getItem('redirectUrl')
