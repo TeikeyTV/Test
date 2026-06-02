@@ -1,3 +1,10 @@
+/*********************************************************************
+* Author  - Teikey
+* Project - Spotify Token Generator
+* Version - 0.1c.beta
+**********************************************************************/
+
+
 const changePage = (page) => {
   const pages = ['welcome', 'dashboard', 'info', 'refresh']
   if (!pages.includes(page)) page = 'welcome'
